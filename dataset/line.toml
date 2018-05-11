@@ -1,0 +1,8 @@
+# file: line.toml
+type = "line-corpus"
+store-full-text = true
+encoding = "utf-8"
+metadata = [{name = "name", type = "string"},
+			{name = "gross", type = "uint"},
+			{name = "release year", type = "string"},
+			{name = "url", type = "string"}]

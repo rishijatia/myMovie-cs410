@@ -1,0 +1,18 @@
+index = "index"
+corpus = "line.toml"
+stop-words = "stopwords.txt"
+dataset = "dataset"
+prefix = "."
+[[analyzers]]
+	ngram = 1
+	method = "ngram-word"
+	[[analyzers.filter]]
+		type = "icu-tokenizer"
+	[[analyzers.filter]]
+		type = "lowercase"
+	[[analyzers.filter]]
+		type = "porter2-filter"
+	[[analyzers.filter]]
+		max = 35
+		min = 3
+		type = "length"
