@@ -23,25 +23,25 @@ It adapts form the [MeTa Search Demo](https://github.com/meta-toolkit/metapy-dem
 The parts of the project and their purpose are as follows:
 
 * `search_server.py`
-** Contains the code for serving the website over Flask
+    * Contains the code for serving the website over Flask
 
 * `searcher.py`
-** Contains the code to use the inverted index and MeTa package to search for relevant documents based on the query
+    * Contains the code to use the inverted index and MeTa package to search for relevant documents based on the query
 
 * `dataset/`
-** Contains scraped movie data
+    * Contains scraped movie data
 
 * `Scraper.py`
-** Contains code for scraping Wikipedia for movie data
+    * Contains code for scraping Wikipedia for movie data
 
 * `static/`
-** Contains the HTML and JavaScript for rendering the Webpage
+    * Contains the HTML and JavaScript for rendering the Webpage
 
 * `static/search/javascript/index.js`
-** Contains the JavaScript to process the results, query the backend and display the results.
+    * Contains the JavaScript to process the results, query the backend and display the results.
 
 * `config.toml`
-** Contains the MeTa configuration file for the dataset.
+    * Contains the MeTa configuration file for the dataset.
 
 ### Initial Setup
 
